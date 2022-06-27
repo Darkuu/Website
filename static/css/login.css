@@ -1,0 +1,63 @@
+body {
+  background-image: url('https://cdn.discordapp.com/attachments/634679434720575489/988749477869387836/Background.png?size=4096');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#InputBoxes{
+  border: 4px solid #FF7800;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 100px;
+  width: 600px;
+  padding: 40px;
+  padding-bottom: 40px;
+  mix-blend-mode: normal;
+  box-sizing: border-box;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 19px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 75px;
+  color: white;
+  line-height: 25px;
+  text-align: center;
+}
+
+h1{
+  margin: auto;
+  margin-top: 250px;
+  width: 600px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 90px;
+  color: rgb(231, 231, 231);
+  text-align: center;
+  text-shadow: -3px -3px 0 #FF7800, 3px -3px 0 #FF7800, -3px 3px 0 #FF7800, 3px 3px 0 #FF7800;
+}
+
+
+#username, #password{
+  border: 4px solid #FF7800;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  text-shadow: -3px -3px 0 rgba(0, 0, 0), 3px -3px 0 rgba(0, 0, 0), -3px 3px 0 rgba(0, 0, 0), 3px 3px 0 rgba(0, 0, 0);
+}
+
+#loginbutton{
+  border: 4px solid #FF7800;
+  width: 250px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}

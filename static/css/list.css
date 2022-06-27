@@ -1,0 +1,86 @@
+body {
+    background-image: url('https://cdn.discordapp.com/attachments/634679434720575489/988749477869387836/Background.png?size=4096');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#button {
+    border-radius: 25px;
+    position: absolute;
+    left: 620px;
+}
+
+#button1 {
+    border-radius: 25px;
+    position: absolute;
+    left: 870px;
+}
+
+#word {
+    
+    position: absolute;
+    left: 278px;
+}
+
+#navbar {
+    border-radius: 25px;
+    height: 60px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.20);
+}
+
+
+
+#heading{
+    
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 49px;
+    color: white;
+    text-shadow: -2px -2px 0 #FF7800, 2px -2px 0 #FF7800, -2px 2px 0 #FF7800, 2px 2px 0 #FF7800;
+}
+
+#posts{
+    border: 4px solid #FF7800;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    padding: 35px;
+    mix-blend-mode: normal;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: white;
+    line-height: 25px;
+    text-align: center;
+}
+
+#delete{
+    font-size: 16px;
+}
+
+#rows{
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+ }
+
+.buttonadd{
+    border: 4px solid #FF7800;
+    background-color: rgba(20, 20, 20, 0.8);
+    border-radius: 25px;
+    width: 500px;
+    height: 20px;
+    padding: 15px;
+    padding-bottom: 35px;
+    mix-blend-mode: normal;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    color: white;
+    line-height: 25px;
+    text-align: center;
+}

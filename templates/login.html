@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru" class="authentication">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/login.css') }}">
+</head>
+
+<body class="authentication" >
+    <h1> Log in!</h1>
+    <form class="authentication" role="form" method="POST" action="">
+            <div class="form-group" id="InputBoxes">
+           <input type="text" id="username" class="form-control"  value="" placeholder="Enter username" name="username" required utofocus>
+                <br>
+                <input type="password" name="password" id="password" class="password " placeholder="Enter password" required> 
+                <br>
+                <button type="submit" class="submitbutton" href="/" id="loginbutton"> Log in </button>
+            </div>
+
+    </form>
+
+
+</body>
